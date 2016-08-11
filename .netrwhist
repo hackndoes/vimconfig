@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/danh/Git/Verint/repositories/invictus-puppet/ceaambari'
+let g:netrw_dirhist_2='/Users/danh/Git/Verint/repositories/invictus-puppet/ceaambari/manifests'
+let g:netrw_dirhist_3='/private/etc/racoon'
+let g:netrw_dirhist_4='/Users/danh/Git/Verint/repositories/invictus/analytics/install'
+let g:netrw_dirhist_5='/private/tmp/webapp/CounterWebApp/target-grunt'
+let g:netrw_dirhist_6='/private/tmp/test-maven-angular/testapp/target/testapp-1.0-SNAPSHOT'
+let g:netrw_dirhist_7='/private/tmp/test-maven-angular/testapp/src/main/webapp'
+let g:netrw_dirhist_8='/Users/danh/temp/test-maven-war/testapp/target/testapp'

@@ -1,0 +1,52 @@
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My Bundles here:
+"
+" original repos on github
+Bundle 'nanotech/jellybeans.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'tpope/vim-rake'
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
+
+" Github repos of the user 'vim-scripts'
+" => can omit the username part
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+
+" non github repos
+Bundle 'https://github.com/wincent/command-t'
+" ...
+
+filetype plugin indent on     " required!
+
+color jellybeans
+set expandtab
+set modelines=0
+set shiftwidth=2
+set tabstop=2
+set number
+" allows VIM yanking to playalong with the clipboard
+set clipboard=unnamed
+" will make vim show one line as one line and not break it with \n in the text
+set nowrap
+" will highlight matched search and smartly ignore casing and doing
+" incremental search
+set hlsearch
+set ignorecase
+set smartcase
+set incsearch
+
+au BufRead,BufNewFile *.rb set filetype=rb

@@ -1,5 +1,5 @@
 # vimconfig
-my small change
+my small change 2
 VIM configuration with plugins and fun stuff
 
 clone the repo to you home dir as .vim
